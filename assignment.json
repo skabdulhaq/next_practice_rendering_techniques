@@ -1,0 +1,131 @@
+{
+    "prerequisite": {
+        "1": "_id in products linked to reviews _id",
+        "2": "each review linked with user _id "
+    },
+    "products": {
+        "_id": "16e5672537a043dcb2a00732ae3182ef",
+        "title": "item_name 1",
+        "image_links": [
+            "https://picsum.photos/id/1001/5616/3744",
+            "https://picsum.photos/id/1002/4312/2868",
+            "https://picsum.photos/id/1003/1181/1772",
+            "https://picsum.photos/id/1004/5616/3744",
+            "https://picsum.photos/id/1005/5760/3840"
+        ],
+        "filnal_price": 146,
+        "mrp": 2933,
+        "details": {
+            "Brand": "\tApple + 1",
+            "Model": " Name\tMacBook Pro",
+            "Screen": " Size\t13 Inches",
+            "Colour": "\tSilver",
+            "Hard": " Disk Size\t8 GB",
+            "CPU": " Model\tCore M Family",
+            "RAM": " Memory Installed Size\t8 GB",
+            "Operating": " System\tMacOS 10.14 Mojave",
+            "Special": " Feature\tAnti reflective",
+            "Graphics": " Card Description\tIntegrated"
+        },
+        "free_delivery": false,
+        "tags": [
+            "tag1", "tag2", "tag3"
+        ],
+        "orders_count": 7,
+        "description": "What is Lorem Ipsum?Lorem Ipsum is simply the filler text of printers and text files. Lorem Ipsum has been the standard filler text of industries since the 1500s, when an unknown printer used a gallery of texts and mixed them in su",
+        "date_added": {
+            "$date": {
+                "$numberLong": "1663797600000"
+            }
+        }
+    },
+    "reviews": {
+        "_id": "16e5672537a043dcb2a00732ae3182ef",
+        "comments": {
+            "1": [{
+                "user": {
+                    "_id": "a9a2ca19c35b40b594e8284de5098ce2",
+                    "name": "Ms. Laurence Schumm",
+                    "image": "https://content.fakeface.rest/male_31_b1a87cfb23f4a5d2e1d4d7a4250ef527af4fc570.jpg"
+                },
+                "comment": "",
+                "date": {
+                    "$date": {
+                        "$numberLong": "1651942017964"
+                    }
+                }
+            }],
+            "2": [{
+                "user": {
+                    "_id": "ae0c5d0f131d40d2a61760fb15d7b1ec",
+                    "name": "Prof. Cordie Donnelly",
+                    "image": "https://content.fakeface.rest/male_45_e9e32c4d9a726a6b5e1291604cab94c9dc20d8da.jpg"
+                },
+                "comment": "",
+                "date": {
+                    "$date": {
+                        "$numberLong": "1651942017964"
+                    }
+                }
+            }],
+            "3": [{
+                "user": {
+                    "_id": "be8973926e464bcb8e8be109c82b58d4",
+                    "name": "Mr. Gianni Gulgowski I",
+                    "image": "https://content.fakeface.rest/female_28_4e31dc3ed6605cb74b7ab063677f442db92a782f.jpg"
+                },
+                "comment": "",
+                "date": {
+                    "$date": {
+                        "$numberLong": "1651942017964"
+                    }
+                }
+            }],
+            "4": [{
+                "user": {
+                    "_id": "c28abc11f1054ba3aa381bc77c5dcc6b",
+                    "name": "Mrs. Nya Stiedemann MD",
+                    "image": "https://content.fakeface.rest/male_48_38370aab1ee108987c709ba6a2e0663a0b762a29.jpg"
+                },
+                "comment": " Lorem Ipsum?Lorem Ipsum is simply the filler text of printers and text files. Lorem Ipsum has been the standard fil",
+                "date": {
+                    "$date": {
+                        "$numberLong": "1651942017964"
+                    }
+                }
+            }],
+            "5": [{
+                "user": {
+                    "_id": "42edb8cb6940499d93706fd755622436",
+                    "name": "Frederique Kerluke",
+                    "image": "https://content.fakeface.rest/female_33_e6ed9c5d101e6f6d0ff9890f3ec923c603ad768e.jpg"
+                },
+                "comment": "rd filler text of industries since the 1500s, when an unknown printer used a gallery of texts and mixed them in such a ",
+                "date": {
+                    "$date": {
+                        "$numberLong": "1651942017964"
+                    }
+                }
+            }]
+        },
+        "avg_review": 3.0232558139534884,
+        "count": 3,
+        "1_star": 1,
+        "2_star": 1,
+        "3_star": 1,
+        "4_star": 1,
+        "5_star": 1
+    },
+    "user_data": {
+        "_id": "bc2ba9485ee24477a8d6bc7786dba6de",
+        "email": "169722820@gmail.com",
+        "name": "Carolyn Prosacco II",
+        "cart_items": {
+            "bb33876b9537411c838fa16e0fd4b5ec": 1,
+            "461beed11f1f4c69891bdbefc364729e": 5,
+            "cd5699fab1df4b8b8c6969ce7af05df4": 3
+        },
+        "orders": {},
+        "image": "https://content.fakeface.rest/female_36_99406ca62bb866b4f3be492aae32a58396050aa3.jpg"
+    }
+}
